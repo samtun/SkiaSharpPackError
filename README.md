@@ -1,4 +1,4 @@
-# SkiaSharpPack
+# SkiaSharpPackError
 
 Demonstration of a SkiaSharp pack error
 

@@ -2,10 +2,11 @@
 
 Demonstration of a SkiaSharp pack error
 
-To reproduce the error:
+To reproduce the error execute the following command in the project folder:
 
 ```shell
-msbuild SkiaSharpAppiOS/ClassLibraryiOS/ClassLibraryiOS.csproj -t:pack
+nuget restore
+msbuild SkiaSharpAppiOS/ClassLibraryiOS/ClassLibraryiOS.csproj -restore -t:pack
 ```
 
 Gives the following error:
